@@ -1,0 +1,11 @@
+<div class="row">
+   <div class="col-xs-12">
+    <ul class="nav nav-pills">
+     <li > <a routerLinkActive="active" [routerLink]="['/weather']" >Weather</a></li>
+     <li > <a routerLinkActive="active" [routerLink]="['/movie']" >Movie Details</a></li>
+     <li > <a routerLinkActive="active" [routerLink]="['/currency']" >Currency Rates</a></li>
+      <li > <a routerLinkActive="active" [routerLink]="['/currency',1]" >Currency Rates Path Param</a></li>
+       <li > <a routerLinkActive="active" [routerLink]="['/currency']" [queryParams]="{name: fname}" >Currency Rates Query Param</a></li>
+    </ul>
+  </div>
+ </div>

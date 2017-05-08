@@ -1,0 +1,4 @@
+<p>
+	 <textarea (keyup)="emitWordCount($event)" appMaxWordCount ="3" [formControl]="bodyControl"  required></textarea>
+	 <button (click)="incrementLikes()" [disabled]="!status">Like</button> {{val}}
+</p>
